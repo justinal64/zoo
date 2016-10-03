@@ -11,6 +11,8 @@ In your terminal run the following commands:
 <br />
 Navigate to the lib folder in your terminal and type:
 ```
+cd lib
+npm init
 npm install
 ```
 This will install all of the dependencies for the project.
