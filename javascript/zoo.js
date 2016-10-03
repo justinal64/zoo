@@ -50,10 +50,9 @@ orangutan.speciesName = "Pongo pygmaeus";
 
 // Output the name, genus name, and species name for your TenoderaSinensis
 // var outputHTML = `<div>The animal is a <u>${tiger.animal}</u> his genus is <u>${tiger.genusName}</u> and his species name is <u>${tiger.speciesName}</u>.</div>`;
-var outputHTML = `<div>The animal is a <u>${orangutan.animal}</u> his genus is <u>${orangutan.genusName}</u> and his species name is <u>${orangutan.speciesName}</u>.</div>`;
-
+var outputHTML = `<div>The <u>${orangutan.kingdom}</u> is a <u>${orangutan.animal}</u> his genus is <u>${orangutan.genusName}</u> and his species name is <u>${orangutan.speciesName}</u>.</div>`;
+outputHTML += `<div>The <u>${tiger.kingdom}</u> is a <u>${tiger.animal}</u> his genus is <u>${tiger.genusName}</u> and his species name is <u>${tiger.speciesName}</u>.</div>`;
 $output.html(outputHTML);
-console.log("tiger", tiger);
-// console.log("tiger", tiger);
+
 
 
