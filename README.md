@@ -1,8 +1,34 @@
-Create a three level prototype chain for identifying animals. Pick a couple of your favorite animals, and research their species and the genus that the species belongs to. Wikipedia is a great resource for this.
+#Prototypal Inheritance Practice(Zoo)
 
-### 1. Create a base Animals function.
-### 2. Create a genus function for each of your favorite animals that inherits from Animal.
-### 3. Create a species function for each of your favorite animals that inherits from the appropriate genus.
-### 4. Every animal must have a name property.
-### 5. Each genus must have a genusName property.
-### 6. Each species must have a speciesName property.
+
+
+## Description
+This is a introduction to [Prototypal Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
+
+## How to run
+In your terminal run the following commands:
+<br />
+Navigate to the lib folder in your terminal and type:
+```
+npm install
+```
+This will install all of the dependencies for the project.
+<br />
+Next type the following:
+```
+cd ..
+```
+This will move you back to the root folder of the project.
+<br />
+Next type the following:
+```
+http-server -p 9999
+```
+Then navigate to [http://localhost:9999](http://localhost:9999) in your browser to view the output.
+
+## Screenshot
+![Output](img/Output.png)
+
+## Contributors
+- [Justin Leggett](https://github.com/justinal64)
